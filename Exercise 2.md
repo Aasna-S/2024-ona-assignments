@@ -53,6 +53,8 @@ ggraph(g, layout = 'stress') +
   labs(title = " FakeBook Bus Seating Network",
        color = "Degree Centrality")
 ```
+![](FakebookBusNetwork.png)
+###### The above plot colors the nodes based on centrality measures, with the darkest blue nodes having the highest degree centrality values.
 
 ```{r}
 
@@ -64,10 +66,7 @@ centralities_df <- data.frame(
 )
 print(centralities_df)
 ```
-![](FakebookBusNetwork.png)
-###### The above plot colors the nodes based on centrality measures, with the darkest blue nodes having the highest degree centrality values.
-
-
+![](centralityvalues.png) 
 
 Degree Centrality:
 
