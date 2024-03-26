@@ -64,9 +64,9 @@ centralities_df <- data.frame(
 )
 print(centralities_df)
 ```
-![](2024-ona-assignments/FakebookBusNetwork.png)<!-- --> ###### 
-The above plot colors the nodes based on centrality measures, with the
-darkest blue nodes having the highest degree centrality values.
+![](2024-ona-assignments/FakebookBusNetwork.png)
+###### The above plot colors the nodes based on centrality measures, with the darkest blue nodes having the highest degree centrality values.
+
 
 
 Degree Centrality:
