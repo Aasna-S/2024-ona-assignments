@@ -42,7 +42,7 @@ relationship_data
 
 
 ```{r}
-
+#GENDER 
 
 
 unique_first_names <- app_data %>%
